@@ -1,6 +1,6 @@
 $(document).ready(function() {
-  const apiRoot = 'http://cryptic-ocean-12771.herokuapp.com/v1/task/';
-  const trelloApiRoot = 'http://cryptic-ocean-12771.herokuapp.com/v1/trello/';
+  const apiRoot = 'https://cryptic-ocean-12771.herokuapp.com/v1/task/';
+  const trelloApiRoot = 'https://api.trello.com/1/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
